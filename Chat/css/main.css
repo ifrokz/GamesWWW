@@ -1,0 +1,18 @@
+#contenedor{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    overflow:scroll;
+}
+#chat{
+    display: none;
+}
+#chat input{
+    width: 500px;
+    height: 25px;
+}
+#chat button{
+    width: 500px;
+    height: 25px;
+}
+

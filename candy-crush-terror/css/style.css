@@ -1,0 +1,22 @@
+body,html{
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+#canvas{
+    border:1px solid black;
+    background: rgba(150,0,255,0.5);
+    overflow: hidden;
+}
+.level{
+    border:1px solid black;
+}
+
+#hud{
+    top: 50px;
+    left: 100px;
+    font-size: 50px;
+    position: absolute;
+    margin: 0 auto;
+}

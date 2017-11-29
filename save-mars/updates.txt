@@ -1,0 +1,108 @@
+///////////// ACTUALIZACIONES /////////////
+
+- 29/10/16[IVAN]:
+        - Acabado el sistema de movimiento de la navel del jugador, con aceleraciones, deceleración y cambio de 
+          dirección varias teclas pulsadas a la vez.
+        - Se han añadido límites para el movimiento del jugador en los bordes de la pantalla.
+        - Se puede cambiar el tipo de disparo del jugador.
+        - Se han añadido imágenes para naves aliadas.
+        - Se han añadido imágenes para los asteroides.
+        - Se han añadido imágenes para los recogibles.
+        - Se ha añadido un gif para las explosiones.
+        - Se ha añadido un archivo créditos.txt para ir guardando los crétidos de los gráficos, sonidos, etc.
+        //////
+        -cAsteroid creada con sus funciones.
+        /////
+        - Asteroides funcionales con 2 imágenes.
+        - asteroides redimensionasdos en función de la pantalla
+
+- 29/10/16[Taleirusu]:
+        - Limitar velocidad nave en diagonal.
+        - Cuando no tienes balas no dispara.
+        - Función de recargar balas.
+        - En función del tipo de nave carga una cantidad de ammoMax.
+
+- 30/10/16[IVAN]:
+        - Las balas salen de la parte central de la nave.
+        - La nave jugador ahora tiene imágen.
+        - La nave jugador tiene las medidas en formato "responsive" en función de la pantalla
+
+- 31/10/16[IVAN]:
+        - Bala mata asteroides implementado y arreglado
+        - Al destruir un asteroide hace el gif de la explosión(bug gif infinito)
+
+        // CAMBIOS CLASE //
+        - Los enemigos ya no heredan de ship, tienen una clase propia.(nombres de funciones y variables idénticos)
+        - el bg hereda bien
+        - las explosiones desaparecen.
+
+- 1/11/16[IVAN]:
+        // ORGANIZACIÓN
+        - Se ha organizado mejor el código de main.js en funciones por clases
+        // ENEMIGOS
+        - Ahora los enemigos tienen su posición Y aleatoria
+        - Los enemigos tienen una dirección inicial aleatoria (2 o -2)
+        - Se crea un enemigo mínimo cada X tiempo, pero hay cierta probabilidad de que se creen más entre tiempos de spawn de forma aleatoria.
+        - Los enemigos no se salen por la parte inferior de la pantalla.
+        - Los enemigos se eliminan del Array al desaparecer por la parte izquierda de la pantalla.
+        //BACKGROUND
+        - El backgraund hace la sensación de ser infinito dibujando 2 sprites.
+        // GENERAL
+        - Ahora todos los enemigos, el personaje principal y los asteroides se redimensionan. (ANTES DE EMPEZAR)
+        ------ PENDIENTE DE HACER --------
+        - poner choque de enemigos y asteroides con la nave del jugador.
+
+- 01/11/16[NONAME]:
+        - Ahora todos los enemigos, el personaje principal, el background y los asteroides se redimensionan. (EN CUALQUIER MOMENTO)
+        - Se ha reestructurado el main.js.
+        - Se ha añadido la nebulosa 1.
+        - Se ha añadido opacidad a la nebulsa 1.
+        - Se ha añadido la nebulosa 2.
+        - Se ha añadido opacidad a la nebulsa 2.
+        - Se ha añadido la nebulosa 3.
+        - Se ha añadido opacidad a la nebulsa 3.
+        - Se han mejorado las posiciones de creación de las 3 nebulosas para que no aparezcan espacios vacíos.
+        - Se ha creado una función para gestionar todos los backgrounds.
+        - Se ha añadido unas nuevas estrellas.
+        - Las nuevas estrellas ya tienen correcto el resize.
+        - Las nebulosas se hacen pequeñas en función del tamaño de la pantalla.
+        - Al principio del nivel dibuja Marte (todavía está algo mal, pero creo que si la idea de mejora, puede quedar bien).
+
+- 2/11/16[IVAN]:
+                                // MAÑANA
+        - Los asteroides tienen colisión con el jugador (aún no hace nada).
+        - Los asteroides tienen colisión con los enemy1 (aún no hace nada).
+        - Se puede pausar pulsando el escape, la pausa se quita pulsándolo de nuevo (playerControl function).
+                                // TARDE
+        - Los asteroides desaparecen en la colisión con la nave player.
+        - Los asteroides y naves enemigas enemy1 desaparecen al chocar entre sí.
+                                //NOCHE
+        - Los enemigos tienen una matriz de disparos
+        - Las balas enemigas destruyen los asteroides.
+        - Las colisiones w/Asteroides quitan vidas.
+
+- 2/11/16[NONAME]:
+        - La explosión de los asteroides se ha centrado.
+        - Se ha arreglado un bugfix con la creación de las nebulosas.
+        - Se ha añadido una pequeña atmósfera a Marte.
+        - La nave ya no puede salirse de los límites.
+        - Se ha mejorado el movimiento de la nave.
+        - Ahora también se redimensiona en el main menu.
+        - Se ha creado la clase cHUD.
+        - Se ha corregido la posición al crear la nave aliada.
+        - Se llama la función para crear la HUD de abajo.
+
+--JATONCIONATION--
+
+        - Ya funcionan todas las colisiones, al chocar la nave con enemigos/asteroides/balas pierdes vida
+
+- 3/11/16[NONAME]:
+        - Se ha creado una pantalla de inicio con todas sus opciones.
+        - Se han arreglado las explosiones con todos los enemigos, entre ellos y con asteroides.
+        - Las explosiones antiguas se eliminan de forma que no quedan generando lag.
+        - Se ha añadido un texto al inicio de la partida.
+        - Se han creado las nuevas naves suicida.
+        - La nave suicida ya tiene responsive.
+        - Se ha implementado la nave tanque.
+        - Se ha implementado tutorial para ella.
+        - La nave tanque ya es responsive.

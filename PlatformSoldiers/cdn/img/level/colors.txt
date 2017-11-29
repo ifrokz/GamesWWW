@@ -1,0 +1,11 @@
+////////////////////
+// BLOQUES EN RGB //
+////////////////////
+
+
+
+255 - 255 - 0 (Amarillo): Bloques Sorpresa
+
+ --- Bloque sin función ---
+150 - 50 - 0 (Marrón): Suelo de tierra.
+0 - 0 - 255 (Azúl): Agua	

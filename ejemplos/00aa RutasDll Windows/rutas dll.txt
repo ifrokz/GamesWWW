@@ -1,0 +1,4 @@
+C:\Users\User\Documents\NetBeansProjects\QtApplication_1\build\Debug\MinGW-Windows
+
+
+C:\Users\User\Documents\NetBeansProjects\QtApplication_1\dist\Debug\MinGW-Windows

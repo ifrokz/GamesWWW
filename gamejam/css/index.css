@@ -1,0 +1,80 @@
+/**
+ * GLOBAL CSS RULES
+ */
+html, body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background: #363636;
+}
+
+/**
+ * MENUS
+ */
+
+.menu {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.menu.start .is-bold .title,
+.menu.over .is-bold .title {
+	font-size: 96px;
+}
+
+.menu.start .is-bold .title {
+	font-weight: 400;
+}
+
+.menu.over .is-bold .title {
+	font-weight: bold;
+}
+
+.hud {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	pointer-events: none;
+}
+.hud .hero {
+	background: transparent;
+}
+.hud .time {
+	font-size: 72px;
+	text-align: right;
+	color: white;
+	font-weight: bold;
+}
+
+.hud .round {
+	font-size: 72px;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+
+.hud .tip {
+	font-size: 56px;
+	text-align: center;
+	color: white;
+}
+
+/**
+ * BUTTONS
+ */
+
+.button.is-large {
+	display: block;
+	width: 40%;
+	height: 64px;
+	font-size: 36px;
+	margin: 0 auto 24px;
+	transition: all .2s ease-in-out;
+}
+
+.button.is-primary.is-inverted.is-outlined:hover,
+.button.is-primary.is-inverted.is-outlined:focus {
+	color: #363636;
+}

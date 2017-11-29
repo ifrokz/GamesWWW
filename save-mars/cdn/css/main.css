@@ -1,0 +1,205 @@
+* {cursor: none;}
+
+html, body{
+    padding: 0px;
+    overflow: hidden;
+    margin: 0;
+    background-color: black;
+}
+
+#lienzo{
+    background:blue;
+    border: 1px solid black
+}
+
+img{
+    /* Can't drag */
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+    /* Can't selecct */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#explotions img{
+    position: absolute;
+    display: none;
+}
+
+#tutorial1{
+    font-family: Orbitron-Regular;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 1%;
+    color: #FF8F43;
+    font-size: 26px;
+    text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    /* Can't selecct */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: none;
+}
+
+#tutorial2{
+    font-family: Orbitron-Regular;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 1%;
+    color: #FF8F43;
+    font-size: 26px;
+    text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    /* Can't selecct */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: none;
+}
+
+#noBalas{
+    font-family: Orbitron-Regular;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 45%;
+    color: white;
+    font-size: 26px;
+    /* Can't selecct */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: none;
+}
+
+#hud1{
+    position: absolute;
+    left: 5px;
+    top: 94%;
+    font-family: Orbitron-Regular;
+    color: #FF8F43;
+    font-size: 26px;
+    display: none;
+    /* Can't selecct */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: none;
+}
+
+#hud2{
+    position: absolute;
+    left: 5px;
+    top: 88%;
+    font-family: Orbitron-Regular;
+    color: #FF8F43;
+    font-size: 26px;
+    display: none;
+    /* Can't selecct */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: none;
+}
+
+#hud3{
+    position: absolute;
+    left: 5px;
+    top: 1%;
+    font-family: Orbitron-Regular;
+    color: #FF8F43;
+    font-size: 26px;
+    display: none;
+    /* Can't selecct */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: none;
+}
+
+audio{
+	display: none;
+}
+
+#gameOver1{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 45%;
+    font-family: Orbitron-Regular;
+    color: #FF8F43;
+    font-size: 26px;
+    display: none;
+    /* Can't selecct */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: none;
+}
+
+#gameOver2{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 55%;
+    font-family: Orbitron-Regular;
+    color: #FF8F43;
+    font-size: 26px;
+    display: none;
+    /* Can't selecct */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: none;
+}
+
+#gameOver3{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 65%;
+    font-family: Orbitron-Regular;
+    color: #FF8F43;
+    font-size: 26px;
+    display: none;
+    /* Can't selecct */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: none;
+}

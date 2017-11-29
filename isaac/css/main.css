@@ -1,0 +1,211 @@
+@font-face {
+  font-family: 'Lato-Regular';
+  src: url('../font/Lato/Lato-Regular.eot?#iefix') format('embedded-opentype'),  url('../font/Lato/Lato-Regular.woff') format('woff'), url('../font/Lato/Lato-Regular.ttf')  format('truetype'), url('../font/Lato/Lato-Regular.svg#Lato-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Acme-Regular';
+  src: url('../font/Acme/Acme-Regular.eot?#iefix') format('embedded-opentype'),  url('../font/Acme/Acme-Regular.woff') format('woff'), url('../font/Acme/Acme-Regular.ttf')  format('truetype'), url('../font/Acme/Acme-Regular.svg#Acme-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body, html{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    font-family: "Lato-Regular";
+    background-color: black;
+    background-image: url("../img/login/bg-ingame.jpg");
+}
+canvas{
+    width: 0px;
+    height: 0px;
+    background-color: black;
+}
+img{
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+}
+
+#hudLogin{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1920px;
+    height: 1080px;
+    display: block;
+    background-image: url("../img/login/bg_login.png");
+    background-repeat: no-repeat;
+    background-position-x: left;
+}
+
+#hudLogin{
+    width: 20%;
+    display: block;
+    width: 1920px;
+}
+
+#hudLogin img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 30%;
+}
+
+#credits{
+    position: absolute;
+    top: 800px;
+    left: 200px;
+    width: 200px;
+}
+
+#login-button{
+    position: absolute;
+    top: 750px;
+    left: 735;
+    width: 440px;
+}
+
+#ranking{
+    position: absolute;
+    top: 800px;
+    left: 1500px;
+    width: 65px;
+}
+#options{
+    position: absolute;
+    top: 800px;
+    left: 1600px;
+    width: 65px;
+}
+
+#loginForm{
+    position: relative;
+    width: 700px;
+    display: block;
+    top: 10%;
+    left: 0px;
+    padding-top: 20px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(229, 141, 0, 0.5);
+    border-radius: 10px;
+}
+
+#loginInputs{
+    position: relative;
+    width: 400px;
+    display: block;
+    padding-bottom: 30px;
+    left: 0px;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 23px;
+}
+
+#loginForm input[type="text"],
+#loginForm input[type="password"],
+#loginForm input[type="email"]{
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #965D00;
+    border: 0px;
+    border-radius: 4px;
+    transition: 0.3s all;
+}
+
+#loginForm input[type="text"]:active,
+#loginForm input[type="text"]:focus,
+#loginForm input[type="password"]:active,
+#loginForm input[type="password"]:focus,
+#loginForm input[type="email"]:active,
+#loginForm input[type="email"]:focus{
+    outline: none;
+    background-color: #BF7600;
+}
+
+.submitLogin{
+    width: 100%;
+    height: 40px;
+    background-color: #965D00;
+    border-color: #8A5500;
+    border-radius: 4px;
+    font-family: "Verdana";
+    font-size: 18px;
+    transition: all 0.3s ease 0s;
+    
+}
+.submitLogin:hover{
+    background-color: #BF7600;
+    cursor: pointer;
+}
+.submitLogin:active,
+.submitLogin:focus{
+    outline: none;
+}
+#registerInLogin{
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+#registerInLogin:hover{
+    text-decoration: underline;
+}
+#registerInputs{
+    position: relative;
+    width: 400px;
+    display: none;
+    padding-bottom: 30px;
+    left: 0px;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 23px;
+}
+#backtoLogin{
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+#backToRegister{
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+#backtoLogin:hover{
+    text-decoration: underline;
+}
+#backToRegister:hover{
+    text-decoration: underline;
+}
+
+#hudSelection{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+#bottomBar{
+    position: relative;
+    top: 90%;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: red;
+    /*background-image: url("");*/
+}

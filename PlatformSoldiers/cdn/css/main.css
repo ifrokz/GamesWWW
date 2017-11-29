@@ -1,0 +1,9 @@
+html, body{
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+canvas{
+    background-image: url("cdn/img/level/bg.jpg");
+}
